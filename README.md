@@ -48,4 +48,4 @@ vercel --prod
 - Main content and sections: `/Users/youfoundmikey/Desktop/portfolio/index.html`
 - Visual styling: `/Users/youfoundmikey/Desktop/portfolio/styles.css`
 - Motion behavior: `/Users/youfoundmikey/Desktop/portfolio/script.js`
-- Extracted presentation slides: `/Users/youfoundmikey/Desktop/portfolio/assets/slides`
+- Project image placeholders are defined in: `/Users/youfoundmikey/Desktop/portfolio/index.html` and `/Users/youfoundmikey/Desktop/portfolio/styles.css`
