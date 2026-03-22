@@ -3,175 +3,199 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Michael Moyo | UI/UX Portfolio</title>
+    <title>Michael Moyo | Frontend Software Engineer</title>
     <meta
       name="description"
-      content="Michael Moyo UI/UX portfolio built in a presentation-style one-page website."
+      content="Portfolio website for Michael Moyo, an aspiring frontend software engineer focused on UI/UX, full-stack systems, and data-informed product decisions."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600;700;800&family=Poppins:wght@400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="grain" aria-hidden="true"></div>
-    <header class="top-nav">
-      <a class="brand" href="#s1">Michael Moyo</a>
-      <nav aria-label="Primary">
-        <a href="#s1">Home</a>
-        <a href="#s3">About</a>
-        <a href="#s4">Education</a>
-        <a href="#s5">Experience</a>
-        <a href="#s6">Skills</a>
-        <a href="#s7">Projects</a>
-        <a href="#s10">Contact</a>
+    <div class="bg-shape bg-shape-1" aria-hidden="true"></div>
+    <div class="bg-shape bg-shape-2" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#home">Michael Moyo</a>
+      <nav aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
       </nav>
     </header>
-    <nav class="quick-nav" aria-label="Slide navigation">
-      <a href="#s1">01</a>
-      <a href="#s2">02</a>
-      <a href="#s3">03</a>
-      <a href="#s4">04</a>
-      <a href="#s5">05</a>
-      <a href="#s6">06</a>
-      <a href="#s7">07</a>
-      <a href="#s8">08</a>
-      <a href="#s9">09</a>
-      <a href="#s10">10</a>
-    </nav>
 
     <main>
-      <section id="s1" class="slide cover" data-slide="01">
-        <p class="eyebrow">MICHAEL MOYO</p>
-        <h1>
-          UI/UX<br />
-          PORTFOLIO
+      <section class="hero" id="home">
+        <p class="kicker reveal">Frontend Software Engineer Portfolio</p>
+        <h1 class="reveal">
+          Building clean, useful web experiences from
+          <span>interface design</span> to deployment.
         </h1>
-        <p class="meta">Product Designer · michaelmoyo.design@gmail.com · michaelmoyo.vercel.app</p>
-      </section>
-
-      <section id="s2" class="slide toc" data-slide="02">
-        <div class="left">
-          <h2>TABLE OF<br />CONTENT</h2>
-        </div>
-        <ol>
-          <li><span>01</span> INTRODUCTION</li>
-          <li><span>02</span> EDUCATION BACKGROUND</li>
-          <li><span>03</span> WORKING EXPERIENCE</li>
-          <li><span>04</span> SKILL & EXPERTISE</li>
-          <li><span>05</span> PREVIOUS PROJECTS</li>
-        </ol>
-      </section>
-
-      <section id="s3" class="slide intro" data-slide="03">
-        <div class="intro-title">
-          <p>ABOUT ME</p>
-          <h2>HELLO!<br />MY NAME IS<br />MICHAEL MOYO</h2>
-        </div>
-        <div class="image-placeholder portrait" role="img" aria-label="Placeholder for introduction visual"><span>Placeholder Image</span></div>
-        <p class="intro-copy">
-          I am passionate about designing digital products that feel clear, inclusive,
-          and easy to use. My focus is UI/UX design across mobile and web experiences,
-          from research insights to polished interface systems.
+        <p class="summary reveal">
+          Aspiring Software Engineer with hands-on experience in responsive frontend development,
+          UI/UX workflows, and data-driven full-stack applications.
         </p>
-      </section>
-
-      <section id="s4" class="slide education" data-slide="04">
-        <h2>EDUCATION<br />BACKGROUND</h2>
-        <div class="timeline-row">
-          <article>
-            <p class="year">2020</p>
-            <h3>BORCELLE HIGH SCHOOL</h3>
-          </article>
-          <article>
-            <p class="year">2023</p>
-            <h3>BORCELLE SCHOOL OF ART</h3>
-          </article>
-          <article>
-            <p class="year">2025</p>
-            <h3>BORCELLE ACADEMY OF DIGITAL DESIGN</h3>
-          </article>
+        <div class="hero-actions reveal">
+          <a class="btn btn-primary" href="#projects">View Projects</a>
+          <a class="btn btn-secondary" href="./Michael_Moyo_Resume.pdf" target="_blank" rel="noopener noreferrer">View Resume</a>
         </div>
+        <ul class="hero-meta reveal" aria-label="Quick facts">
+          <li>New York, NY</li>
+          <li>Kean University CS, Dec 2026</li>
+          <li>GPA: 3.895</li>
+        </ul>
       </section>
 
-      <section id="s5" class="slide experience" data-slide="05">
-        <h2>WORKING EXPERIENCE</h2>
-        <div class="experience-grid">
-          <article>
-            <p class="year">2023</p>
-            <h3>UX DESIGN INTERN<br />AT STUDIO SHODWE</h3>
-            <p>Assisted senior designers on campaign concepts, wireframes, and usability feedback.</p>
+      <section class="about section" id="about">
+        <div class="section-head reveal">
+          <p>About</p>
+          <h2>Engineering with product and user context</h2>
+        </div>
+        <div class="about-grid">
+          <article class="card reveal">
+            <h3>Profile</h3>
+            <p>
+              I combine frontend implementation, usability thinking, and data analysis to build
+              interfaces that are intuitive and reliable. I enjoy translating user needs into
+              clear workflows, then shipping production-ready features.
+            </p>
           </article>
-          <article>
-            <p class="year">2025</p>
-            <h3>UI/UX DESIGNER<br />AT HANOVER AND TYKE</h3>
-            <p>Created interface concepts and scalable component patterns for client products.</p>
-          </article>
-          <article>
-            <p class="year">2027</p>
-            <h3>SENIOR PRODUCT DESIGNER<br />AT FRADEL AND SPIES</h3>
-            <p>Led digital campaign UX and high-performing social-first product experiences.</p>
+          <article class="card reveal">
+            <h3>Education</h3>
+            <p><strong>Kean University</strong>, Union, NJ</p>
+            <p>Bachelor in Computer Science, Expected December 2026</p>
+            <p>Relevant coursework: OOP, Data Structures, Operating Systems, DBMS, Software Engineering, HCI</p>
           </article>
         </div>
       </section>
 
-      <section id="s6" class="slide skills" data-slide="06">
-        <h2>SKILL &<br />EXPERTISE</h2>
-        <div class="skill-list">
-          <span>UX RESEARCH</span>
-          <span>WIREFRAMING</span>
-          <span>UI DESIGN</span>
-          <span>DESIGN SYSTEMS</span>
-          <span>PROTOTYPING</span>
-          <span>WEB DESIGN</span>
+      <section class="experience section" id="experience">
+        <div class="section-head reveal">
+          <p>Experience</p>
+          <h2>Software and support roles</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="time">Jun 2024 - Aug 2024</div>
+            <div>
+              <h3>Software Development Intern - Adaire Technology</h3>
+              <ul>
+                <li>Built responsive web apps with HTML, CSS, JavaScript, and Bubble.io.</li>
+                <li>Developed dynamic UI components for job listings, candidate profiles, and application data.</li>
+                <li>Applied accessibility and frontend optimization practices for improved engagement and stability.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="time">Mar 2025 - Sep 2025</div>
+            <div>
+              <h3>Help Desk Analyst - Kean University</h3>
+              <ul>
+                <li>Resolved hardware, software, and network issues through multi-channel support.</li>
+                <li>Handled Active Directory account setup, access updates, and MFA/device onboarding.</li>
+                <li>Escalated complex incidents with root cause collaboration and SLA-focused ticket workflows.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="time">Aug 2025 - Present</div>
+            <div>
+              <h3>Resident Assistant / Community Assistant - Kean University</h3>
+              <ul>
+                <li>Lead programming and support for 40+ residents while balancing academic and technical work.</li>
+                <li>Strengthened communication, leadership, and conflict-resolution skills in fast-paced situations.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="time">Feb 2024 - Mar 2025</div>
+            <div>
+              <h3>Supplemental Instruction Leader - Kean University</h3>
+              <ul>
+                <li>Led collaborative sessions to improve problem-solving and analytical performance in mathematics.</li>
+                <li>Designed lesson plans and hybrid learning materials aligned with faculty curriculum goals.</li>
+              </ul>
+            </div>
+          </article>
         </div>
       </section>
 
-      <section id="s7" class="slide project project-a" data-slide="07">
-        <h2>PREVIOUS<br />PROJECTS</h2>
-        <div class="project-content">
-          <h3>SOCIAL EXPERIENCE FOR<br />RIMBERIO CAFE</h3>
-          <p>
-            Rimberio Cafe is a cozy coffee brand. I redesigned their social content and
-            mobile engagement touchpoints to attract new customers and improve brand recall.
-          </p>
+      <section class="projects section" id="projects">
+        <div class="section-head reveal">
+          <p>Projects</p>
+          <h2>Frontend + full-stack builds</h2>
         </div>
-        <div class="image-placeholder project-image" role="img" aria-label="Placeholder for Rimberio project visual"><span>Project Placeholder</span></div>
+
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <h3>ParkKean <span>2025</span></h3>
+            <p>
+              Full-stack campus parking platform with a user-centered flow from search to navigation.
+            </p>
+            <p class="stack">Node.js | Express | SQLite | HTML/CSS/JS</p>
+          </article>
+
+          <article class="project-card reveal">
+            <h3>Vehicle Marketplace <span>2025</span></h3>
+            <p>
+              Role-based marketplace designed for high-trust product discovery with secure data handling.
+            </p>
+            <p class="stack">PHP | MySQL | Responsive UI | Auth Sessions</p>
+          </article>
+
+          <article class="project-card reveal">
+            <h3>Collaborative Music Playlist Platform <span>2025</span></h3>
+            <p>
+              Creator-focused collaboration platform for sharing drafts, feedback loops, and iteration.
+            </p>
+            <p class="stack">UI/UX Workflows | Relational DB Design | Engagement Analytics</p>
+          </article>
+        </div>
       </section>
 
-      <section id="s8" class="slide project project-b" data-slide="08">
-        <div class="project-content">
-          <h3>BRAND IDENTITY FOR<br />LARANA, INC. FASHION</h3>
-          <p>
-            Larana produces elegant, minimalist fashion items. I partnered with the team
-            to create a stronger identity system and digital foundation for future growth.
-          </p>
+      <section class="skills section" id="skills">
+        <div class="section-head reveal">
+          <p>Skills</p>
+          <h2>Technical focus areas</h2>
         </div>
-        <div class="image-placeholder project-image" role="img" aria-label="Placeholder for Larana project visual"><span>Project Placeholder</span></div>
+        <div class="chip-wrap reveal">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>SQL</span>
+          <span>Node.js</span>
+          <span>Express</span>
+          <span>PHP</span>
+          <span>MySQL</span>
+          <span>SQLite</span>
+          <span>UI/UX Design</span>
+          <span>Figma</span>
+          <span>Accessibility</span>
+          <span>Data Analysis</span>
+          <span>Agile Collaboration</span>
+        </div>
       </section>
 
-      <section id="s9" class="slide project project-c" data-slide="09">
-        <h2>PREVIOUS<br />PROJECTS</h2>
-        <div class="project-content">
-          <h3>WEBSITE DESIGN FOR<br />BORCELLE JEWELRY</h3>
-          <p>
-            Borcelle Jewelry is an established brand with multiple branches. I redesigned
-            the website architecture and UI to improve usability and conversion flow.
-          </p>
+      <section class="contact section" id="contact">
+        <div class="section-head reveal">
+          <p>Contact</p>
+          <h2>Let&apos;s build something useful</h2>
         </div>
-        <div class="image-placeholder project-image" role="img" aria-label="Placeholder for Borcelle project visual"><span>Project Placeholder</span></div>
-      </section>
-
-      <section id="s10" class="slide closing" data-slide="10">
-        <h2>
-          LET'S WORK<br />TOGETHER AND<br />CREATE<br />SOMETHING GREAT
-        </h2>
-        <p>michaelmoyo.design@gmail.com</p>
-        <p>@michaelmoyo.design</p>
-        <p>+1 (201) 555-0198</p>
+        <div class="contact-card reveal">
+          <p><strong>Email:</strong> <a href="mailto:michael.mb.moyo@gmail.com">michael.mb.moyo@gmail.com</a></p>
+          <p><strong>Phone:</strong> <a href="tel:+13474792970">+1 (347) 479-2970</a></p>
+          <p><strong>Location:</strong> New York, NY</p>
+        </div>
       </section>
     </main>
 
